@@ -10,7 +10,10 @@
     "detect": "utils/detect",
     "fn": "utils/fn",
     "string": "utils/string",
+    "structure": "utils/structure",
+    "tuple": "utils/tuple",
     "list": "utils/list",
+    "object": "utils/object",
     "pipe": "utils/pipe",
     "regexp": "utils/regexp",
     "gulpHelpers/structure": "gulp/helpers/structure",
@@ -132,17 +135,36 @@
     "string": {
       "index": "utils/string/index"
     },
+    "structure": {
+      "index": "utils/structure/index/spec01"
+    },
+    "tuple": {
+      "index": "utils/tuple/index",
+      "methods-001": "utils/tuple/methods-001",
+      "methods-002": "utils/tuple/methods-002"
+    },
     "list": {
       "index": "utils/list/index",
       "methods-001": "utils/list/methods-001",
       "methods-002": "utils/list/methods-002",
       "methods-003": "utils/list/methods-003"
     },
+    "object": {
+      "errors": "utils/object/errors",
+      "index": "utils/object/index",
+      "methods-001": "utils/object/methods-001",
+      "methods-002": "utils/object/methods-002",
+      "methods-003": "utils/object/methods-003"
+    },
     "pipe": {
       "index": "utils/pipe/index",
       "methods-001": "utils/pipe/methods-001",
       "methods-002": "utils/pipe/methods-002",
       "methods-003": "utils/pipe/methods-003"
+    },
+    "regexp": {
+      "index": "utils/regexp/index",
+      "make": "utils/regexp/make"
     },
     "gulpHelpers/structure": {
       "index": "gulp/helpers/structure/index"

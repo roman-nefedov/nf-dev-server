@@ -37,7 +37,7 @@ module.exports = (dd, that) => run(dd, extend(that), {
       it: 'extracts project name from tab-completed path',
       inside: ['projects/a/b/c', 'projects/a/b/c/'],
       finds: [[['projects/a/b/c', 'a/b/c']],
-        [['projects/a/b/c/', 'a/b/c']]],
+      [['projects/a/b/c/', 'a/b/c']]],
     },
     {
       it: 'ignores strings which are not valid project paths',
